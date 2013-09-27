@@ -14,7 +14,7 @@ Autoloader::add_classes(
     array(
          'Nexmo\\Nexmo' => __DIR__ . '/classes/nexmo.php',
          'Nexmo\\Nexmo_Message' => __DIR__ . '/classes/nexmo/nexmomessage.php',
-         'Nexmo\\Nexmo_Account' => __DIR__ . '/classes/nexmo/NexmoAccount.php',
-         'Nexmo\\Nexmo_Receipt' => __DIR__ . '/classes/nexmo/NexmoReceipt.php',
+         'Nexmo\\Nexmo_Account' => __DIR__ . '/classes/nexmo/nexmoaccount.php',
+         'Nexmo\\Nexmo_Receipt' => __DIR__ . '/classes/nexmo/nexmoreceipt.php',
     )
 );
